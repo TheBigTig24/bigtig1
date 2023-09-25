@@ -1,0 +1,319 @@
+.navMenu {
+    width: 650px;
+    height: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    margin: auto;
+    transform: translateX(-42%);
+}
+
+ul.nav {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.nav li {
+    border-right: 1px solid black;
+    font-size: 16px;
+    background-color: solidwhite;
+    padding: 12px;
+    width: auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+ul.nav a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    font-family: Verdana; 
+    
+}
+
+ul.nav li:last-child {
+    border-right: 0px;
+}
+
+#listFullName {
+    font-family: 'Verdana';
+    font-weight: bold;
+    font-size: 30px;
+    color: purple;
+}
+
+
+
+
+
+#infoSection {
+    width: 50%;
+    background-color: rgba(249,103,20,.7);
+    height: 450px;
+    margin: 0;
+    float: left;
+    transform: translateY(-20%);
+}
+
+#infoSection2 {
+    width: 50%;
+    background-color: rgba(0,0,0,.7);
+    height: 450px;
+    margin: 0;
+    float: left;
+    transform: translateY(-20%);
+}
+
+#infoSection button {
+    height: 40px;
+    width: 300px;
+    margin: 0;
+    position: relative;
+    top: 45%;
+    left: 33%;
+    background-color: rgb(93, 195, 212);
+    border-radius: 12px;
+}
+
+#infoSection button:hover {
+    /* animation-name: button;
+    animation-duration: 1s; */
+    background-color: rgb(58, 123, 167);
+}
+
+#infoSection button:focus {
+    outline-color: green;
+    outline-style: solid;
+    box-shadow: red;
+}
+
+#infoSection a {
+    text-decoration: none;
+    color: black;
+}
+
+#infoSection2 button{
+    height: 40px;
+    width: 300px;
+    margin: 0;
+    position: relative;
+    top: 45%;
+    left: 33%;
+    background-color: rgb(93, 195, 212);
+    border-radius: 12px;
+}
+
+#infoSection2 button:hover {
+    /* animation-name: button;
+    animation-duration: 1s; */
+    background-color: rgb(58, 123, 167);
+}
+
+#infoSection2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.largePic {
+    display: grid;
+    place-items: center;
+    scale: 80%;
+    transform: translateY(-12%);
+}
+
+#tiggerBG {
+    max-height: 99%;
+    max-width: 99%;
+    align-items: center;
+}
+
+
+
+
+
+#tiggerStripe {
+    color: orange;
+}
+
+#siteTitle {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color: #6d9839;
+}
+
+#submitButton {
+    transform: translateX(200%);
+}
+
+.gameSect {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgba(98, 4, 175, 0.5);
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.cubeSect {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgba(179, 12, 0, 0.7);
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+.travelSect {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgba(0, 71, 0, 0.7);
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.pianoSect {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgba(175, 107, 4, 0.7);
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+ul.gameSect {
+    list-style-type: none;
+}
+
+.selfIntro {
+    text-align: center;
+}
+
+#hobbyHeader {
+    text-align:  center;
+    font-family: 'Trebuchet MS';
+    color: #6d9839;
+}
+
+#hobbyH {
+    text-align: center;
+}
+
+.cubeSect ul {
+    text-align: center;
+    list-style: none;
+}
+
+.cubeSect mark {
+    background-color: #a2ac16;
+}
+
+.cubeSect p {
+    text-align: center;
+}
+
+#travelWords {
+    transform: translateX(1%);
+}
+
+#pianoWords {
+    transform: translateX(1%);
+}
+
+
+.funFacts {
+    width: 300px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 5vh;
+    transform: translateX(198%);
+    z-index: 1;
+    
+}
+
+.dropdownFacts {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownFacts:hover .funFacts {
+    display: block;
+}
+
+.dropdownFacts:focus .funFacts {
+    animation-name: example;
+}
+
+@keyframes example {
+    from {
+        height: 50px;
+    }
+    to {
+        height: 400px;
+    }
+}
+
+.bgimage {
+    background-image: url('snivyBGHR.jpg');
+    background-repeat: no-repeat;
+    scale: 50%;
+    opacity: .9;
+    background-attachment: fixed;
+    background-position: center center;
+    transform: translateY(-40%);
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownFacts {
+    text-align: center;
+
+}
+
+section {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-300%);
+}
+
+.food {
+    text-align: center;
+}
+
+.food ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.joever {
+    text-align: center;
+}
+
+.bobthebuilder {
+    text-align: center;
+}
+
+.movingUp {
+    transform: translateY(-75%);
+}

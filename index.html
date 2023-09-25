@@ -2,58 +2,33 @@
 <html>
     <head>
         <title>Caleb's Website</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <h1>Caleb's Abode</h1>
-        <b>Major: Computer Science</b>
-        <i>Minor: Mathematics</i>
-        <br>
-        <p>I am a 19 year old attending Cal Poly Pomona!</p>
-        <hr>
-        <section>
-            <h4>Fun Facts:</h4>
-            <u>I have one younger sister.</u>
-            <br>
-            <mark>My best friend's name is Bryan.</mark>
-            <br>
-            <em>My birthday is in August.</em>
-            <br>
-            <strong>My favorite cartoon character is Tigger</strong>
-        </section>
-
-        <h5>--Below is a picture of a nice meme.--</h5>
-        <img src="joever.jpg" alt="alternative"/>
-
-        <h6>--Why not listen to this nice banger of a song?--</h6>
-        <footer>(Recommended to turn volume down, otherwise your ears are in for a trip)</footer>
-        <audio controls>
-            <source src=bob.mp3>
-        </audio>
-
-        <div>
-            <h2>Favorite Places I've Visited</h2>
-            <ol>
-                <li>Japan</li>
-                <li>Singapore</li>
-                <li>Vietnam</li>
-            </ol>
-
+        <div class="navMenu">
+            <ul class="nav">
+                <li id="listFullName">Caleb Chung</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobby.html">Hobbies</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <h3>Some of my favorite meals to eat</h3>
-        <ul>
-            <li>Smooth Eggs with Beef and Noodles</li>
-            <li>Ramen</li>
-            <li>Mapo Tofu</li>
-            <li>Bun Rieu</li>
-        </ul>
-        
-        
-        <input type="checkbox" class="button1" id="butt"/>
-        <label for="button1">Click for funsies</label>
-        <input id="button1"/>
-        <br>
-        <nav>
-            <a href="hobby.html">Click this to see information about my hobbies!</a>
-        </nav>
+
+        <h1 id="siteTitle">Caleb's Abode</h1>
+
+        <div class="largePic">
+            <img src="tiggerBG.jpg" id="tiggerBG">
+        </div>
+
+        <div id="infoSection">
+            <button><a href="hobby.html">CLICK TO HOP TO THE "HOBBIES" PAGE</a></button>
+        </div>
+        <div id="infoSection2">
+            <button><a href="about.html">CLICK TO BOUNCE TO THE "ABOUT" PAGE</a></button>     
+        </div>
+
+        <br> 
+       
     </body>
 </html>
