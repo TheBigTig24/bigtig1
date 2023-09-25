@@ -127,7 +127,7 @@ ul.nav li:last-child {
 .largePic {
     display: grid;
     place-items: center;
-    scale: .8 80%;
+    scale: .8;
     transform: translateY(-12%);
 }
 
@@ -274,7 +274,7 @@ ul.gameSect {
 .bgimage {
     background-image: url('snivyBGHR.jpg');
     background-repeat: no-repeat;
-    scale: .5 50%;
+    scale: .5;
     opacity: .9;
     background-attachment: fixed;
     background-position: center center;
