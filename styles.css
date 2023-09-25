@@ -22,7 +22,7 @@ ul.nav {
 ul.nav li {
     border-right: 1px solid black;
     font-size: 16px;
-    background-color: solidwhite;
+    background-color: white;
     padding: 12px;
     width: auto;
     display: inline;
@@ -90,7 +90,7 @@ ul.nav li:last-child {
 #infoSection button:focus {
     outline-color: green;
     outline-style: solid;
-    box-shadow: red;
+    box-shadow: 5px 5px 5px red;
 }
 
 #infoSection a {
@@ -127,7 +127,7 @@ ul.nav li:last-child {
 .largePic {
     display: grid;
     place-items: center;
-    scale: 80%;
+    scale: .8 80%;
     transform: translateY(-12%);
 }
 
@@ -274,7 +274,7 @@ ul.gameSect {
 .bgimage {
     background-image: url('snivyBGHR.jpg');
     background-repeat: no-repeat;
-    scale: 50%;
+    scale: .5 50%;
     opacity: .9;
     background-attachment: fixed;
     background-position: center center;
